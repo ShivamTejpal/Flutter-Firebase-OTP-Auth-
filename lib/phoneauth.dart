@@ -41,7 +41,7 @@ class _PhoneauthState extends State<Phoneauth> {
                   verificationCompleted: (phoneAuthCredential) {},
                   verificationFailed: (FirebaseAuthException ex) {},
                   codeSent: (String verificationId, int? resendtoken) {
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=>OTPScreen()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>OTPScreen(verificationid: verificationId)));
                   },
                   codeAutoRetrievalTimeout: (String verificationId) {},
                   phoneNumber: phoneController.text.toString());

@@ -29,7 +29,7 @@ class MainApp extends StatelessWidget {
 }
 
 class WelcomeScreen extends StatelessWidget {
-  const WelcomeScreen({Key? key}) : super(key: key);
+  const WelcomeScreen({Key? key, required String title}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -51,7 +51,7 @@ class WelcomeContent extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         const Icon(
-          Icons.star, // Replace with an appropriate icon
+          Icons.home,// Replace with an appropriate icon
           size: 100,
           color: Colors.white,
         ),
