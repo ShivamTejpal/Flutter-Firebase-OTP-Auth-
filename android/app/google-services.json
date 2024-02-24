@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "944481829440",
+    "project_id": "email-auth-cb4a2",
+    "storage_bucket": "email-auth-cb4a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944481829440:android:2b0c29470a9a9eab3655a5",
+        "android_client_info": {
+          "package_name": "com.example.otp_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD35PimPLrBLb0Hrf1ChS80toLf3-HdkQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
