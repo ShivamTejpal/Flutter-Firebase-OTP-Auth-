@@ -51,7 +51,7 @@ class _OTPScreenState extends State<OTPScreen> {
                 log(ex.toString());
               }
             },
-            child: const Text("Verify Phone Number"),
+            child: const Text("Verify Otp"),
           ),
         ],
       ),

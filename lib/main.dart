@@ -51,13 +51,13 @@ class WelcomeContent extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         const Icon(
-          Icons.home,// Replace with an appropriate icon
+          Icons.check,// Replace with an appropriate icon
           size: 100,
           color: Colors.white,
         ),
         const SizedBox(height: 20),
         const Text(
-          'Welcome to My App',
+          'Verification Successful',
           style: TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.bold,
