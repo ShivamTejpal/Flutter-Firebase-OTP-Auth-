@@ -94,3 +94,4 @@ class WelcomeContent extends StatelessWidget {
     );
   }
 }
+//use +44 7444 555666 as test Phone no & 123456 as test otp
